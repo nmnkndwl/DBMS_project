@@ -1,0 +1,195 @@
+html{
+    font-size: 62.5%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    margin:0rem;
+    padding: 0rem;
+  }
+  
+  
+  
+  /* login */
+  .join-container h1{
+    color: black;
+  }
+  
+  .join-container a{
+    color: #131576;
+    font-size: medium;
+  }
+  
+  .join-container{
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 40rem;
+    min-height: 30rem;
+    text-align: center;
+    border: 2px solid blanchedalmond;
+  }
+  .join-username,.join-button{
+     margin-top:1.5rem;
+     padding: 0.4rem;
+  }
+  
+  .join-container input,.join-container button{
+    width: 80%;
+    height: 3rem;
+    border-style: solid;
+    background-color:rgb(13, 7, 7);
+    color: rgb(245, 239, 239);
+  }
+  .join-container button{
+    color: white;
+    font-size: large;
+    height: 5rem;
+    background-color: rgb(87, 149, 87);
+  }
+  .errormsg{
+    color: red;
+  }
+  
+
+  /*main page*/
+
+header{
+    height:10%;
+    display: flex;
+    background-color: #333;
+    color: #fff;
+  }
+  .logo{
+    flex: 17%;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .logo img{
+    height:100%;
+    width: 13rem;
+  }
+  .welcome{
+    flex: 83%;
+    display: flex;
+    align-items: center;
+  }
+  .welcomea{
+    flex: 80%;
+  }
+  .logout{
+    flex: 20%;
+    text-align: right;
+    font-size: 2rem;
+  }
+  .logout a{
+    color: white;
+    text-decoration: none;
+  }
+.logout a:hover {
+    color: #d1cece;
+}
+
+.mainpage{
+  display: flex;
+  height: 90%;
+  flex-direction: row;
+}
+.sidebar {
+    
+    flex: 15%;
+    height: 100%;
+    background-color: #555;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #777;
+}
+
+.content {
+  flex: 85%;
+  height: 100%;
+  padding: 2rem;
+}
+.content a{
+  text-decoration: none;
+  color: rgb(172, 42, 42);
+}
+.maincontent{
+  background-color: #e3e2e2;
+  min-height: 40rem;
+  box-shadow: #2d2b2b;
+  padding-bottom: 2rem;
+}
+.contenterrormsg{
+  color: red;
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  width: 60%;
+}
+.form-input{
+  width: 60%;
+  height: 3rem;
+  margin: 1rem;
+  background-color: white;
+  border: solid 0.1rem;
+  vertical-align: center;
+}
+textarea{
+  width: 60%;
+  height: 10rem;
+  margin: 1rem;
+}
+.submit{
+  background-color: rgb(89, 160, 89);
+  font-size: 1.6rem;
+}
+.table{
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.tabledata{
+  background-color: rgb(253, 253, 254);
+  height: 3rem;
+  font-size:1.6rem;
+}
+.product-img{
+  height: 3rem;
+  width: 4rem;
+}
+.delete{
+  background-color:red;
+  border: black solid 2px;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+
+}
+.edit{
+  background-color:rgb(105, 148, 85);
+  border: black solid 2px;
+  border-radius: 0.4rem;
+  padding: 0.2rem;
+}
+.delete a,.edit a{
+  color: black;
+}
+.label{
+  margin-left: 1rem;
+  font-size: 1.8rem;
+}
+
